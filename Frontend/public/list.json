@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "lorem ipsum story side anything you want",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1737015678~exp=1737019278~hmac=00a4d98528e9c1e7dd2517752cab0cd9d347d6b39b7495d6f85b7a5b35f3d67a&w=740"
+    },
+    {
+        "id": 2,
+        "name": "Sports Book",
+        "title": "lorem ipsum story side anything you want",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1737015678~exp=1737019278~hmac=00a4d98528e9c1e7dd2517752cab0cd9d347d6b39b7495d6f85b7a5b35f3d67a&w=740"
+    },
+    {
+        "id": 3,
+        "name": "Entertainment Book",
+        "title": "lorem ipsum story side anything you want",
+        "price": 0,
+        "category": "Entertainment",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1737015678~exp=1737019278~hmac=00a4d98528e9c1e7dd2517752cab0cd9d347d6b39b7495d6f85b7a5b35f3d67a&w=740"
+    },
+    {
+        "id": 4,
+        "name": "Story Book",
+        "title": "lorem ipsum story side anything you want",
+        "price": 20,
+        "category": "Story",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1737015678~exp=1737019278~hmac=00a4d98528e9c1e7dd2517752cab0cd9d347d6b39b7495d6f85b7a5b35f3d67a&w=740"
+    },
+    {
+        "id": 5,
+        "name": "Horror Book",
+        "title": "lorem ipsum story side anything you want",
+        "price": 10,
+        "category": "Horror",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1737015678~exp=1737019278~hmac=00a4d98528e9c1e7dd2517752cab0cd9d347d6b39b7495d6f85b7a5b35f3d67a&w=740"
+    },
+    {
+        "id": 6,
+        "name": "Story Book",
+        "title": "lorem ipsum story side anything you want",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1737015678~exp=1737019278~hmac=00a4d98528e9c1e7dd2517752cab0cd9d347d6b39b7495d6f85b7a5b35f3d67a&w=740"
+    },
+    {
+        "id": 7,
+        "name": "Sports Book",
+        "title": "lorem ipsum story side anything you want",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1737015678~exp=1737019278~hmac=00a4d98528e9c1e7dd2517752cab0cd9d347d6b39b7495d6f85b7a5b35f3d67a&w=740"
+    },
+    {
+        "id": 8,
+        "name": "Horror Book",
+        "title": "lorem ipsum story side anything you want",
+        "price": 10,
+        "category": "Horror",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1737015678~exp=1737019278~hmac=00a4d98528e9c1e7dd2517752cab0cd9d347d6b39b7495d6f85b7a5b35f3d67a&w=740"
+    }
+]
