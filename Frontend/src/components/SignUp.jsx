@@ -2,16 +2,39 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Login from './Login'
 import { useForm } from "react-hook-form"
+import axios from 'axios'
+import toast from 'react-hot-toast'
 
 function SignUp() {
 
-        const {
-            register,
-            handleSubmit,
-            watch,
-            formState: { errors },
-          } = useForm()
-          const onSubmit = (data) => console.log(data)
+    const {
+        register,
+        handleSubmit,
+        watch,
+        formState: { errors },
+    } = useForm()
+
+    const onSubmit = async (data) => {
+        const userInfo = {
+            fullname: data.name,
+            email: data.email,
+            password: data.password
+        }
+
+        await axios.post('http://localhost:4001/user/signup', userInfo).then((res) => {
+            console.log(res.data);
+            if (res.data) {
+                toast.success('Signup Successfull');
+                console.log(res.data);
+
+                localStorage.setItem('user', JSON.stringify(res.data.user))
+            }
+        }).catch((err) => {
+            console.log(err);
+            toast.error(err.response.data.message);
+        })
+
+    }
 
     return (
         <>
@@ -21,10 +44,10 @@ function SignUp() {
                         <form method="" onSubmit={handleSubmit(onSubmit)}>
                             {/* if there is a button in form, it will close the modal */}
                             <div className='flex justify-between'>
-                            <h3 className="font-bold text-lg">Signup</h3>
-                            <Link to='/' className='text-blue-500 cursor-pointer'>
-                                ✕
-                            </Link>
+                                <h3 className="font-bold text-lg">Signup</h3>
+                                <Link to='/' className='text-blue-500 cursor-pointer'>
+                                    ✕
+                                </Link>
                             </div>
                             <hr />
                             <div className='mt-4'>
@@ -52,7 +75,7 @@ function SignUp() {
                             <div className='flex justify-between mt-4'>
                                 <button className="bg-pink-500 text-white rounded-md px-5">Signup</button>
                                 <p>Already A User?
-                                    <span onClick={()=>document.getElementById('my_modal_3').showModal()} className='underline text-blue-500 cursor-pointer'>
+                                    <span onClick={() => document.getElementById('my_modal_3').showModal()} className='underline text-blue-500 cursor-pointer'>
                                         Login
                                     </span>
                                     <Login />
